@@ -23,6 +23,7 @@
 		534BDA2818D8C115003AA133 /* Ej1T1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 534BDA2718D8C115003AA133 /* Ej1T1Tests.m */; };
 		534BDA3318D8C136003AA133 /* Prueba.m in Sources */ = {isa = PBXBuildFile; fileRef = 534BDA3218D8C136003AA133 /* Prueba.m */; };
 		534BDA3618D8C360003AA133 /* Prueba2.m in Sources */ = {isa = PBXBuildFile; fileRef = 534BDA3518D8C360003AA133 /* Prueba2.m */; };
+		534BDA3918D8C43E003AA133 /* Prueba3.m in Sources */ = {isa = PBXBuildFile; fileRef = 534BDA3818D8C43E003AA133 /* Prueba3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		534BDA3218D8C136003AA133 /* Prueba.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prueba.m; sourceTree = "<group>"; };
 		534BDA3418D8C360003AA133 /* Prueba2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prueba2.h; sourceTree = "<group>"; };
 		534BDA3518D8C360003AA133 /* Prueba2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prueba2.m; sourceTree = "<group>"; };
+		534BDA3718D8C43E003AA133 /* Prueba3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prueba3.h; sourceTree = "<group>"; };
+		534BDA3818D8C43E003AA133 /* Prueba3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prueba3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 		534BD9F018D8C115003AA133 = {
 			isa = PBXGroup;
 			children = (
+				534BDA3718D8C43E003AA133 /* Prueba3.h */,
+				534BDA3818D8C43E003AA133 /* Prueba3.m */,
 				534BDA3418D8C360003AA133 /* Prueba2.h */,
 				534BDA3518D8C360003AA133 /* Prueba2.m */,
 				534BDA3118D8C136003AA133 /* Prueba.h */,
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534BDA3918D8C43E003AA133 /* Prueba3.m in Sources */,
 				534BDA1318D8C115003AA133 /* ViewController.m in Sources */,
 				534BDA0D18D8C115003AA133 /* AppDelegate.m in Sources */,
 				534BDA3318D8C136003AA133 /* Prueba.m in Sources */,
