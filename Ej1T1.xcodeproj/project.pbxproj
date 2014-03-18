@@ -22,6 +22,7 @@
 		534BDA2618D8C115003AA133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 534BDA2418D8C115003AA133 /* InfoPlist.strings */; };
 		534BDA2818D8C115003AA133 /* Ej1T1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 534BDA2718D8C115003AA133 /* Ej1T1Tests.m */; };
 		534BDA3318D8C136003AA133 /* Prueba.m in Sources */ = {isa = PBXBuildFile; fileRef = 534BDA3218D8C136003AA133 /* Prueba.m */; };
+		534BDA3618D8C360003AA133 /* Prueba2.m in Sources */ = {isa = PBXBuildFile; fileRef = 534BDA3518D8C360003AA133 /* Prueba2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		534BDA2718D8C115003AA133 /* Ej1T1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ej1T1Tests.m; sourceTree = "<group>"; };
 		534BDA3118D8C136003AA133 /* Prueba.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prueba.h; sourceTree = "<group>"; };
 		534BDA3218D8C136003AA133 /* Prueba.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prueba.m; sourceTree = "<group>"; };
+		534BDA3418D8C360003AA133 /* Prueba2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prueba2.h; sourceTree = "<group>"; };
+		534BDA3518D8C360003AA133 /* Prueba2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prueba2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 		534BD9F018D8C115003AA133 = {
 			isa = PBXGroup;
 			children = (
+				534BDA3418D8C360003AA133 /* Prueba2.h */,
+				534BDA3518D8C360003AA133 /* Prueba2.m */,
 				534BDA3118D8C136003AA133 /* Prueba.h */,
 				534BDA3218D8C136003AA133 /* Prueba.m */,
 				534BDA0218D8C115003AA133 /* Ej1T1 */,
@@ -258,6 +263,7 @@
 				534BDA0D18D8C115003AA133 /* AppDelegate.m in Sources */,
 				534BDA3318D8C136003AA133 /* Prueba.m in Sources */,
 				534BDA0918D8C115003AA133 /* main.m in Sources */,
+				534BDA3618D8C360003AA133 /* Prueba2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +472,7 @@
 				534BDA2D18D8C115003AA133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		534BDA2E18D8C115003AA133 /* Build configuration list for PBXNativeTarget "Ej1T1Tests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +481,7 @@
 				534BDA3018D8C115003AA133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
