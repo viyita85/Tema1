@@ -21,6 +21,7 @@
 		534BDA1E18D8C115003AA133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534BDA0018D8C115003AA133 /* UIKit.framework */; };
 		534BDA2618D8C115003AA133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 534BDA2418D8C115003AA133 /* InfoPlist.strings */; };
 		534BDA2818D8C115003AA133 /* Ej1T1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 534BDA2718D8C115003AA133 /* Ej1T1Tests.m */; };
+		534BDA3318D8C136003AA133 /* Prueba.m in Sources */ = {isa = PBXBuildFile; fileRef = 534BDA3218D8C136003AA133 /* Prueba.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		534BDA2318D8C115003AA133 /* Ej1T1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ej1T1Tests-Info.plist"; sourceTree = "<group>"; };
 		534BDA2518D8C115003AA133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		534BDA2718D8C115003AA133 /* Ej1T1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ej1T1Tests.m; sourceTree = "<group>"; };
+		534BDA3118D8C136003AA133 /* Prueba.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prueba.h; sourceTree = "<group>"; };
+		534BDA3218D8C136003AA133 /* Prueba.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prueba.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		534BD9F018D8C115003AA133 = {
 			isa = PBXGroup;
 			children = (
+				534BDA3118D8C136003AA133 /* Prueba.h */,
+				534BDA3218D8C136003AA133 /* Prueba.m */,
 				534BDA0218D8C115003AA133 /* Ej1T1 */,
 				534BDA2118D8C115003AA133 /* Ej1T1Tests */,
 				534BD9FB18D8C115003AA133 /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				534BDA1318D8C115003AA133 /* ViewController.m in Sources */,
 				534BDA0D18D8C115003AA133 /* AppDelegate.m in Sources */,
+				534BDA3318D8C136003AA133 /* Prueba.m in Sources */,
 				534BDA0918D8C115003AA133 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
